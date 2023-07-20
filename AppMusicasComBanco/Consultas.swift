@@ -40,7 +40,22 @@ func consulta(_ select: Select) {
 
 // desenvolvendo as consultas
 
+// Lista todos os álbuns.
 func consulta1() {
+    let albuns = Albuns()
+    consulta(Select(albuns.nome, albuns.ano, from:albuns))
+}
+
+// Lista todas as músicas.
+func consulta2() {
+    let musicas = Musicas()
+    consulta(Select(musicas.nome, musicas.idEstilo, from:musicas))
+}
+
+// Lista o álbum e as músicas, caso tenha.
+// Precisa instanciar antes, até a tabela MusicasDoAlbuns.
+// Stay Like This não tem nenhuma música.
+func consulta3() {
     let albuns = Albuns()
     let musicas = Musicas()
     let musicasDoAlbum = MusicasDosAlbuns()
@@ -52,13 +67,13 @@ func consulta1() {
         .on(musicasDoAlbum.idBanda == musicas.idBanda && musicasDoAlbum.idMusica == musicas.idMusica))
 }
 
-func consulta2() {
+// Retorna as bandas e a quantidade de músicas,
+// caso tenham mais ou igual a 2 músicas.
+func consulta4() {
     let musicas = Musicas()
     let bandas = Bandas()
-    consulta(Select(bandas.nome, count(musicas.idBanda),
-                    from: musicas)
-        .join(bandas).on(musicas.idBanda ==
-                         bandas.idBanda)
+    consulta(Select(bandas.nome, count(musicas.idBanda), from: musicas)
+        .join(bandas).on(musicas.idBanda == bandas.idBanda)
             .group(by: musicas.idBanda)
             .having(count(musicas.idBanda) >= 2)
             .order(by: .DESC(count(musicas.idBanda))))

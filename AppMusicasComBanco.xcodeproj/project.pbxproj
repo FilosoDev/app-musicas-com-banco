@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8EC6CE0F2A5DBAC700A316C3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6CE0E2A5DBAC700A316C3 /* main.swift */; };
-		8EC6CE182A5DBBF200A316C3 /* SwiftKueryMySQL in Frameworks */ = {isa = PBXBuildFile; productRef = 8EC6CE172A5DBBF200A316C3 /* SwiftKueryMySQL */; };
-		8EC6CE1B2A5DBCD900A316C3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6CE1A2A5DBCD800A316C3 /* Model.swift */; };
-		8EC6CE1E2A5DBD7700A316C3 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6CE1D2A5DBD7700A316C3 /* Database.swift */; };
-		8EC6CE202A5DBDFA00A316C3 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6CE1F2A5DBDFA00A316C3 /* Utils.swift */; };
-		8EC6CE222A5DBE5300A316C3 /* CriarTabelas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6CE212A5DBE5300A316C3 /* CriarTabelas.swift */; };
-		8EC6CE242A5DC0D900A316C3 /* InserirDados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6CE232A5DC0D900A316C3 /* InserirDados.swift */; };
-		8EC6CE262A5DC3D000A316C3 /* Consultas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6CE252A5DC3D000A316C3 /* Consultas.swift */; };
-		8EC6CE2A2A5DCAD200A316C3 /* AlterarEstilo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6CE292A5DCAD200A316C3 /* AlterarEstilo.swift */; };
-		8EC6CE2C2A5DD23A00A316C3 /* RemoverRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6CE2B2A5DD23A00A316C3 /* RemoverRegistro.swift */; };
-		8EC6CE2E2A5DD3A700A316C3 /* RemoveTabelas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC6CE2D2A5DD3A700A316C3 /* RemoveTabelas.swift */; };
+		8E933C252A64B3F2002D66E9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E933C242A64B3F2002D66E9 /* main.swift */; };
+		8E933C2E2A64B694002D66E9 /* SwiftKueryMySQL in Frameworks */ = {isa = PBXBuildFile; productRef = 8E933C2D2A64B694002D66E9 /* SwiftKueryMySQL */; };
+		8E933C312A64B7E5002D66E9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E933C302A64B7E5002D66E9 /* Utils.swift */; };
+		8E933C342A64C2D1002D66E9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E933C332A64C2D1002D66E9 /* Model.swift */; };
+		8E933C362A64C509002D66E9 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E933C352A64C509002D66E9 /* Database.swift */; };
+		8E933C382A64C623002D66E9 /* CriarTabelas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E933C372A64C623002D66E9 /* CriarTabelas.swift */; };
+		8E933C3A2A64C9AB002D66E9 /* InserirDados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E933C392A64C9AB002D66E9 /* InserirDados.swift */; };
+		8E933C3C2A64CC02002D66E9 /* Consultas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E933C3B2A64CC02002D66E9 /* Consultas.swift */; };
+		8E933C3E2A64CF21002D66E9 /* AlterarEstilo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E933C3D2A64CF21002D66E9 /* AlterarEstilo.swift */; };
+		8E933C402A64D01B002D66E9 /* RemoverRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E933C3F2A64D01B002D66E9 /* RemoverRegistro.swift */; };
+		8E933C422A64D0F9002D66E9 /* RemoveTabelas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E933C412A64D0F9002D66E9 /* RemoveTabelas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8EC6CE092A5DBAC700A316C3 /* CopyFiles */ = {
+		8E933C1F2A64B3F2002D66E9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -33,72 +33,72 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8EC6CE0B2A5DBAC700A316C3 /* AppMusicasComBanco */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppMusicasComBanco; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EC6CE0E2A5DBAC700A316C3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		8EC6CE152A5DBAD100A316C3 /* AppMusicasComBanco.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppMusicasComBanco.entitlements; sourceTree = "<group>"; };
-		8EC6CE1A2A5DBCD800A316C3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		8EC6CE1C2A5DBD2700A316C3 /* connection.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = connection.json; sourceTree = "<group>"; };
-		8EC6CE1D2A5DBD7700A316C3 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
-		8EC6CE1F2A5DBDFA00A316C3 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		8EC6CE212A5DBE5300A316C3 /* CriarTabelas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarTabelas.swift; sourceTree = "<group>"; };
-		8EC6CE232A5DC0D900A316C3 /* InserirDados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InserirDados.swift; sourceTree = "<group>"; };
-		8EC6CE252A5DC3D000A316C3 /* Consultas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consultas.swift; sourceTree = "<group>"; };
-		8EC6CE292A5DCAD200A316C3 /* AlterarEstilo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterarEstilo.swift; sourceTree = "<group>"; };
-		8EC6CE2B2A5DD23A00A316C3 /* RemoverRegistro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoverRegistro.swift; sourceTree = "<group>"; };
-		8EC6CE2D2A5DD3A700A316C3 /* RemoveTabelas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveTabelas.swift; sourceTree = "<group>"; };
+		8E933C212A64B3F2002D66E9 /* AppMusicasComBanco */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppMusicasComBanco; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E933C242A64B3F2002D66E9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8E933C2B2A64B454002D66E9 /* AppMusicasComBanco.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppMusicasComBanco.entitlements; sourceTree = "<group>"; };
+		8E933C2F2A64B6F7002D66E9 /* connection.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = connection.json; sourceTree = "<group>"; };
+		8E933C302A64B7E5002D66E9 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		8E933C332A64C2D1002D66E9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8E933C352A64C509002D66E9 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		8E933C372A64C623002D66E9 /* CriarTabelas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarTabelas.swift; sourceTree = "<group>"; };
+		8E933C392A64C9AB002D66E9 /* InserirDados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InserirDados.swift; sourceTree = "<group>"; };
+		8E933C3B2A64CC02002D66E9 /* Consultas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consultas.swift; sourceTree = "<group>"; };
+		8E933C3D2A64CF21002D66E9 /* AlterarEstilo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlterarEstilo.swift; sourceTree = "<group>"; };
+		8E933C3F2A64D01B002D66E9 /* RemoverRegistro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoverRegistro.swift; sourceTree = "<group>"; };
+		8E933C412A64D0F9002D66E9 /* RemoveTabelas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveTabelas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8EC6CE082A5DBAC700A316C3 /* Frameworks */ = {
+		8E933C1E2A64B3F2002D66E9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EC6CE182A5DBBF200A316C3 /* SwiftKueryMySQL in Frameworks */,
+				8E933C2E2A64B694002D66E9 /* SwiftKueryMySQL in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8EC6CE022A5DBAC700A316C3 = {
+		8E933C182A64B3F2002D66E9 = {
 			isa = PBXGroup;
 			children = (
-				8EC6CE0D2A5DBAC700A316C3 /* AppMusicasComBanco */,
-				8EC6CE0C2A5DBAC700A316C3 /* Products */,
+				8E933C232A64B3F2002D66E9 /* AppMusicasComBanco */,
+				8E933C222A64B3F2002D66E9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8EC6CE0C2A5DBAC700A316C3 /* Products */ = {
+		8E933C222A64B3F2002D66E9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8EC6CE0B2A5DBAC700A316C3 /* AppMusicasComBanco */,
+				8E933C212A64B3F2002D66E9 /* AppMusicasComBanco */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8EC6CE0D2A5DBAC700A316C3 /* AppMusicasComBanco */ = {
+		8E933C232A64B3F2002D66E9 /* AppMusicasComBanco */ = {
 			isa = PBXGroup;
 			children = (
-				8EC6CE192A5DBC9400A316C3 /* databaseAPI */,
-				8EC6CE152A5DBAD100A316C3 /* AppMusicasComBanco.entitlements */,
-				8EC6CE0E2A5DBAC700A316C3 /* main.swift */,
+				8E933C322A64C2AB002D66E9 /* databaseAPI */,
+				8E933C2B2A64B454002D66E9 /* AppMusicasComBanco.entitlements */,
+				8E933C242A64B3F2002D66E9 /* main.swift */,
+				8E933C2F2A64B6F7002D66E9 /* connection.json */,
+				8E933C302A64B7E5002D66E9 /* Utils.swift */,
+				8E933C3B2A64CC02002D66E9 /* Consultas.swift */,
+				8E933C3D2A64CF21002D66E9 /* AlterarEstilo.swift */,
+				8E933C3F2A64D01B002D66E9 /* RemoverRegistro.swift */,
+				8E933C412A64D0F9002D66E9 /* RemoveTabelas.swift */,
 			);
 			path = AppMusicasComBanco;
 			sourceTree = "<group>";
 		};
-		8EC6CE192A5DBC9400A316C3 /* databaseAPI */ = {
+		8E933C322A64C2AB002D66E9 /* databaseAPI */ = {
 			isa = PBXGroup;
 			children = (
-				8EC6CE1C2A5DBD2700A316C3 /* connection.json */,
-				8EC6CE1F2A5DBDFA00A316C3 /* Utils.swift */,
-				8EC6CE1D2A5DBD7700A316C3 /* Database.swift */,
-				8EC6CE212A5DBE5300A316C3 /* CriarTabelas.swift */,
-				8EC6CE232A5DC0D900A316C3 /* InserirDados.swift */,
-				8EC6CE1A2A5DBCD800A316C3 /* Model.swift */,
-				8EC6CE252A5DC3D000A316C3 /* Consultas.swift */,
-				8EC6CE292A5DCAD200A316C3 /* AlterarEstilo.swift */,
-				8EC6CE2B2A5DD23A00A316C3 /* RemoverRegistro.swift */,
-				8EC6CE2D2A5DD3A700A316C3 /* RemoveTabelas.swift */,
+				8E933C332A64C2D1002D66E9 /* Model.swift */,
+				8E933C352A64C509002D66E9 /* Database.swift */,
+				8E933C372A64C623002D66E9 /* CriarTabelas.swift */,
+				8E933C392A64C9AB002D66E9 /* InserirDados.swift */,
 			);
 			path = databaseAPI;
 			sourceTree = "<group>";
@@ -106,13 +106,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8EC6CE0A2A5DBAC700A316C3 /* AppMusicasComBanco */ = {
+		8E933C202A64B3F2002D66E9 /* AppMusicasComBanco */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8EC6CE122A5DBAC700A316C3 /* Build configuration list for PBXNativeTarget "AppMusicasComBanco" */;
+			buildConfigurationList = 8E933C282A64B3F2002D66E9 /* Build configuration list for PBXNativeTarget "AppMusicasComBanco" */;
 			buildPhases = (
-				8EC6CE072A5DBAC700A316C3 /* Sources */,
-				8EC6CE082A5DBAC700A316C3 /* Frameworks */,
-				8EC6CE092A5DBAC700A316C3 /* CopyFiles */,
+				8E933C1D2A64B3F2002D66E9 /* Sources */,
+				8E933C1E2A64B3F2002D66E9 /* Frameworks */,
+				8E933C1F2A64B3F2002D66E9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -120,28 +120,28 @@
 			);
 			name = AppMusicasComBanco;
 			packageProductDependencies = (
-				8EC6CE172A5DBBF200A316C3 /* SwiftKueryMySQL */,
+				8E933C2D2A64B694002D66E9 /* SwiftKueryMySQL */,
 			);
 			productName = AppMusicasComBanco;
-			productReference = 8EC6CE0B2A5DBAC700A316C3 /* AppMusicasComBanco */;
+			productReference = 8E933C212A64B3F2002D66E9 /* AppMusicasComBanco */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8EC6CE032A5DBAC700A316C3 /* Project object */ = {
+		8E933C192A64B3F2002D66E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					8EC6CE0A2A5DBAC700A316C3 = {
+					8E933C202A64B3F2002D66E9 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 8EC6CE062A5DBAC700A316C3 /* Build configuration list for PBXProject "AppMusicasComBanco" */;
+			buildConfigurationList = 8E933C1C2A64B3F2002D66E9 /* Build configuration list for PBXProject "AppMusicasComBanco" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,41 +149,41 @@
 				en,
 				Base,
 			);
-			mainGroup = 8EC6CE022A5DBAC700A316C3;
+			mainGroup = 8E933C182A64B3F2002D66E9;
 			packageReferences = (
-				8EC6CE162A5DBBF200A316C3 /* XCRemoteSwiftPackageReference "swiftkuerymysql" */,
+				8E933C2C2A64B694002D66E9 /* XCRemoteSwiftPackageReference "swiftkuerymysql" */,
 			);
-			productRefGroup = 8EC6CE0C2A5DBAC700A316C3 /* Products */;
+			productRefGroup = 8E933C222A64B3F2002D66E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8EC6CE0A2A5DBAC700A316C3 /* AppMusicasComBanco */,
+				8E933C202A64B3F2002D66E9 /* AppMusicasComBanco */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8EC6CE072A5DBAC700A316C3 /* Sources */ = {
+		8E933C1D2A64B3F2002D66E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EC6CE2E2A5DD3A700A316C3 /* RemoveTabelas.swift in Sources */,
-				8EC6CE222A5DBE5300A316C3 /* CriarTabelas.swift in Sources */,
-				8EC6CE2A2A5DCAD200A316C3 /* AlterarEstilo.swift in Sources */,
-				8EC6CE1E2A5DBD7700A316C3 /* Database.swift in Sources */,
-				8EC6CE262A5DC3D000A316C3 /* Consultas.swift in Sources */,
-				8EC6CE2C2A5DD23A00A316C3 /* RemoverRegistro.swift in Sources */,
-				8EC6CE242A5DC0D900A316C3 /* InserirDados.swift in Sources */,
-				8EC6CE202A5DBDFA00A316C3 /* Utils.swift in Sources */,
-				8EC6CE0F2A5DBAC700A316C3 /* main.swift in Sources */,
-				8EC6CE1B2A5DBCD900A316C3 /* Model.swift in Sources */,
+				8E933C422A64D0F9002D66E9 /* RemoveTabelas.swift in Sources */,
+				8E933C382A64C623002D66E9 /* CriarTabelas.swift in Sources */,
+				8E933C3E2A64CF21002D66E9 /* AlterarEstilo.swift in Sources */,
+				8E933C342A64C2D1002D66E9 /* Model.swift in Sources */,
+				8E933C3C2A64CC02002D66E9 /* Consultas.swift in Sources */,
+				8E933C402A64D01B002D66E9 /* RemoverRegistro.swift in Sources */,
+				8E933C3A2A64C9AB002D66E9 /* InserirDados.swift in Sources */,
+				8E933C252A64B3F2002D66E9 /* main.swift in Sources */,
+				8E933C362A64C509002D66E9 /* Database.swift in Sources */,
+				8E933C312A64B7E5002D66E9 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8EC6CE102A5DBAC700A316C3 /* Debug */ = {
+		8E933C262A64B3F2002D66E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		8EC6CE112A5DBAC700A316C3 /* Release */ = {
+		8E933C272A64B3F2002D66E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,7 +296,7 @@
 			};
 			name = Release;
 		};
-		8EC6CE132A5DBAC700A316C3 /* Debug */ = {
+		8E933C292A64B3F2002D66E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = AppMusicasComBanco/AppMusicasComBanco.entitlements;
@@ -308,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		8EC6CE142A5DBAC700A316C3 /* Release */ = {
+		8E933C2A2A64B3F2002D66E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = AppMusicasComBanco/AppMusicasComBanco.entitlements;
@@ -323,20 +323,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8EC6CE062A5DBAC700A316C3 /* Build configuration list for PBXProject "AppMusicasComBanco" */ = {
+		8E933C1C2A64B3F2002D66E9 /* Build configuration list for PBXProject "AppMusicasComBanco" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EC6CE102A5DBAC700A316C3 /* Debug */,
-				8EC6CE112A5DBAC700A316C3 /* Release */,
+				8E933C262A64B3F2002D66E9 /* Debug */,
+				8E933C272A64B3F2002D66E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EC6CE122A5DBAC700A316C3 /* Build configuration list for PBXNativeTarget "AppMusicasComBanco" */ = {
+		8E933C282A64B3F2002D66E9 /* Build configuration list for PBXNativeTarget "AppMusicasComBanco" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8EC6CE132A5DBAC700A316C3 /* Debug */,
-				8EC6CE142A5DBAC700A316C3 /* Release */,
+				8E933C292A64B3F2002D66E9 /* Debug */,
+				8E933C2A2A64B3F2002D66E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -344,7 +344,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8EC6CE162A5DBBF200A316C3 /* XCRemoteSwiftPackageReference "swiftkuerymysql" */ = {
+		8E933C2C2A64B694002D66E9 /* XCRemoteSwiftPackageReference "swiftkuerymysql" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/kitura/swiftkuerymysql.git";
 			requirement = {
@@ -355,12 +355,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8EC6CE172A5DBBF200A316C3 /* SwiftKueryMySQL */ = {
+		8E933C2D2A64B694002D66E9 /* SwiftKueryMySQL */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8EC6CE162A5DBBF200A316C3 /* XCRemoteSwiftPackageReference "swiftkuerymysql" */;
+			package = 8E933C2C2A64B694002D66E9 /* XCRemoteSwiftPackageReference "swiftkuerymysql" */;
 			productName = SwiftKueryMySQL;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 8EC6CE032A5DBAC700A316C3 /* Project object */;
+	rootObject = 8E933C192A64B3F2002D66E9 /* Project object */;
 }

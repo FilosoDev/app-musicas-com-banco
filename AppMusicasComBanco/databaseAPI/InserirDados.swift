@@ -2,7 +2,7 @@
 //  InserirDados.swift
 //  AppMusicasComBanco
 //
-//  Created by Arthur on 11/07/23.
+//  Created by Arthur on 16/07/23.
 //
 
 import Foundation
@@ -10,7 +10,6 @@ import SwiftKuery
 
 
 // Essa classe executa a query de inserção.
-
 
 func insereDados() {
     
@@ -85,4 +84,4 @@ func insereDados() {
     print("Os registros de Musicas foram inseridos")
     utils.executaQuery(Insert(into: MusicasDosAlbuns(), rows: musicas.map{ $0.join }))
     print("Os registros de Musicas dos Albuns foram   inseridos")
-    }
+}

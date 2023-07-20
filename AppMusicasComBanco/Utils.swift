@@ -1,22 +1,23 @@
 //
-//  Utilis.swift
+//  Utils.swift
 //  AppMusicasComBanco
 //
-//  Created by Arthur on 11/07/23.
+//  Created by Arthur on 16/07/23.
 //
 
 import Foundation
 import SwiftKuery
 import SwiftKueryMySQL
 
-/// Esta classe tem as implementações para o acesso ao Banco de Dados
 class CommonUtils{
+    
     private var pool: ConnectionPool?
     private var connection: Connection?
     static let sharedInstance = CommonUtils()
     private init(){}
     
-    /// Este método é de uso interno para a criação do pool de conexões ao bando de dados
+    // Método de uso interno para criação do pool de conexões ao banco de dados
+    
     private func getConnectionPool( characterSet: String? = nil) -> ConnectionPool
     {
         if let pool = pool{
@@ -40,12 +41,12 @@ class CommonUtils{
                 }
                 
                 let randomBinary = arc4random_uniform(2)
-                let poolOptions = ConnectionPoolOptions(initialCapacity: 1, maxCapacity: 1)
+                let poolOptions = ConnectionPoolOptions(initialCapacity:  1, maxCapacity: 1)
                 
                 if characterSet != nil || randomBinary == 0 {
                     pool = MySQLConnection.createPool(
-                        host: host, user: username, password: password,
-                        database: database, port: port,
+                        host: host, user : username, password : password,
+                        database : database, port: port,
                         characterSet: characterSet,
                         connectionTimeout: 10000,
                         poolOptions: poolOptions
@@ -56,9 +57,10 @@ class CommonUtils{
                         urlString += "\(username):\(password)@"
                     }
                     
+                    
                     urlString += host ?? "localhost"
                     
-                    if let port = port{
+                    if let port = port {
                         urlString += ":\(port)"
                     }
                     
@@ -71,53 +73,51 @@ class CommonUtils{
                     }
                 }
                 
-            } else
+            }else
             {
                 pool = nil
                 print("""
-                        Formato inválido conteudo do arquivo .json \(json)
+                    Formato inválido do arquivo .json \(json)
                     """)
+                
             }
-            
         }catch{
-            print("Erro lancado")
+            print("Erro lançado")
             pool = nil
             print(error.localizedDescription)
         }
+        
         return pool!
     }
     
-    /// Este método obtém a conexão ao banco de dados do pool de conexões
+    
+    // Método que obtém a conexão ao banco de dados do pool de conexões
+    
     func getConnection() -> Connection? {
-        if let connection = connection{
+        if let connection = connection {
             return connection
         }
         
         self.connection = nil
         
-        getConnectionPool().getConnection {
+        getConnectionPool().getConnection{
             connection, error in
             guard let connection = connection else{
                 guard let error = error else{
                     return print("""
-                            Falha ao conectar \(error?.localizedDescription ?? "Erro Desconhecido")
-                        """)
+                                    Falha ao conectar \(error?.localizedDescription ?? "Erro Desconhecido")
+                    """)
                 }
                 return print("""
-                        Falha ao conectar \(error.localizedDescription)
-                    """)
+                                Falha ao conectar \(error.localizedDescription)
+                """)
             }
-            
             self.connection = connection
             return
         }
-        
         return connection
     }
     
-    /// Este método executa uma consulta SQL (SELECT)
-    /// - Parameter query: Uma instância de Select
-    /// - Parameter aoFinal: O Bloco de instruções que receberá o retorno do Select
     func criaTabela(_ tabela: Table){
         let thread = DispatchGroup()
         thread.enter()
@@ -198,5 +198,6 @@ class CommonUtils{
     func removeTabela(_ tabela: Table) {
         executaQuery(tabela.drop())
     }
+    
     
 }
